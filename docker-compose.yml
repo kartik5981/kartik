@@ -2,7 +2,7 @@ web:
   build: .
   command: node index-db.js
   ports:
-    - "3000:3060"
+    - "3000:3080"
   links:
     - db
   environment:
